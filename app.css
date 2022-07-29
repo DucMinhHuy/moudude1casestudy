@@ -1,0 +1,49 @@
+body{
+    background: url("https://gamek.mediacdn.vn/133514250583805952/2021/3/10/-1615363324787806370969.jpg");
+    background-size: cover;
+    background-position-y:-80px;
+    }
+#wrapper{
+    min-height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 200px;
+    background: rgba(0,0,0,0);
+    flex-grow: 1;
+    padding: 30px 60px;
+    box-shadow:0px 0px 17px rgba(16, 239, 19, 0.8);
+}
+.form-heading{
+    font-size:25px;
+    color: #ef417f;
+    text-align:center;
+    margin-bottom:30px;
+}
+.form-group{
+    border-bottom:1px solid #d73e3e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.form-input{
+    background:transparent;
+    border:0;
+    outline:1px;
+    color: #be5ecc
+}
+.form-input::placeholder{
+    color:#d73e3e;
+}
+.form-submit{
+    background:transparent;
+    border: 1px solid #dc4a7e;
+    color:#dc4a7e;
+    width:100%;
+    text-transfrom:uppercase;
+    padding: 6px 10px;
+}
+.form-submit:hover{
+    border:1px solid rgb(44, 194, 46);
+}
