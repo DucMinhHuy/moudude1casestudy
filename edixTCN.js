@@ -36,5 +36,5 @@ function edit(){
 function save(){
     let huy=document.getElementById("enter2").value;
     sua.push(huy);
-    console.log(huy)
+    console.log(huy);
 }

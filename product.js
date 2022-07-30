@@ -31,6 +31,7 @@ function edit(index){
     let td = trList[index].querySelector("td");
     let ad=td.innerText;
     // console.log(ad);
+
     // td.innerText = "";
     td.innerHTML = "<input id='enter5' type=\"text\" value=\"" + ad + "\">";
 
