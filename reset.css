@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
 :root{
     --main-text-font:'Cormorant SC', serif;
     --main-color: #26e8d2;
-}
-body{
-    background: url("https://img4.thuthuatphanmem.vn/uploads/2020/12/26/hinh-anh-cuon-sach-mo-ra-3d_051458668.jpg");
-    background-size: cover;
-    background-position-y:-80px;
 }
 .header-text{
     position:absolute;
